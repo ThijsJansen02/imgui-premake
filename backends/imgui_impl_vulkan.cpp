@@ -1352,9 +1352,9 @@ bool    ImGui_ImplVulkan_Init(ImGui_ImplVulkan_InitInfo* info)
     ImGuiViewport* main_viewport = ImGui::GetMainViewport();
     main_viewport->RendererUserData = IM_NEW(ImGui_ImplVulkan_ViewportData)();
 
-    ImGui_ImplVulkan_InitMultiViewportSupport();
+    //ImGui_ImplVulkan_InitMultiViewportSupport();
 
-    return true;
+    return true;        
 }
 
 void ImGui_ImplVulkan_Shutdown()
